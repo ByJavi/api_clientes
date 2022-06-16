@@ -15,6 +15,8 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
+        <Route path="/" element={<Layout />}></Route>
+
           <Route path="/clientes" element={<Layout />}>
             <Route index element={<Inicio />} />
             <Route path="nuevo" element={<NuevoCliente />}/>
