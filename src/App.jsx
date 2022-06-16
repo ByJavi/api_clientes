@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 import EditarCliente from './pages/EditarCliente';
 import Inicio from './pages/Inicio';
-import Layout from './Layout/Layout';
+import Layout from './layout/Layout';
 import NuevoCliente from './pages/NuevoCliente';
 import VerCliente from './pages/VerCliente';
 
