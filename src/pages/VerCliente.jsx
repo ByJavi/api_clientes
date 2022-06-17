@@ -14,6 +14,7 @@ const VerCliente = () => {
     const obtenerClienteAPI = async()=> {
       try {
         const url = `{import.meta.env.VITE_API_URL}/${id}`;
+        console.log(url)
         const respuesta = await fetch(url);
         const resultado = await respuesta.json();
 
